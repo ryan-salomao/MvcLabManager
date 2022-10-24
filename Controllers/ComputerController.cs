@@ -28,4 +28,19 @@ public class ComputerController : Controller
 
         return View(computer);
     }
+    public IActionResult NewComputer(int id, string ram, string processor)
+    {
+        Computer verificacao = _context.Computers.Find(id);
+
+        if(verificacao == null)
+        {
+            var computer = new Computer(id, ram, processor);
+            return Content("Novo computador criado.");
+        }
+        else
+        {
+            return Content("ID já existente.");
+        }
+    }
+
 }
