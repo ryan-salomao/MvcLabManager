@@ -36,7 +36,7 @@ public class ComputerController : Controller
         if(verificacao == null)
         {
             var computer = new Computer(id, ram, processor);
-            return Content("Novo computador criado.");
+            return View(computer);
         }
         else
         {
@@ -55,7 +55,7 @@ public class ComputerController : Controller
         else
         {
             //instrução para atualizar os dados de ram e processador do computador a partir do id
-            return Content("Computador atualizado.");
+            return View(computer);
         }
     }
 

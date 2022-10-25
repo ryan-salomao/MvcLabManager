@@ -29,13 +29,13 @@ public class LabController : Controller
         return View(lab);
     }
 
-    public IActionResult CreateLab(int id, Computer computer)
+    public IActionResult CreateLab(int id, string nome, string setor)
     {
         Lab verificacao = _context.Labs.Find(id);
 
         if(verificacao == null)
         {
-            var lab = new Lab(id, computer);
+            var lab = new Lab(id, nome, setor);
             return Content("Novo laboratório criado.");
         }
         else
@@ -44,22 +44,7 @@ public class LabController : Controller
         }
     }
 
-    public IActionResult AddComputer(int id, Computer computer)
-    {
-        Lab lab = _context.Labs.Find(id);
-
-        if(lab == null)
-        {
-            return NotFound();
-        }
-        else
-        {
-            lab.AddComputer(computer);
-            return Content("Computador adicionado ao laboratório.");
-        }
-    }
-
-    public IActionResult UpdateLab(int id, Computer computer)
+    public IActionResult UpdateLab(int id, string nome, string setor)
     {
         Lab lab = _context.Labs.Find(id);
 

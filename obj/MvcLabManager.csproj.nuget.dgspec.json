@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ryan\\Desktop\\MvcLabManager\\MvcLabManager.csproj": {}
+    "/home/estudante/Documentos/ProntuarioMvcLabManager/MvcLabManager/MvcLabManager.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ryan\\Desktop\\MvcLabManager\\MvcLabManager.csproj": {
+    "/home/estudante/Documentos/ProntuarioMvcLabManager/MvcLabManager/MvcLabManager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ryan\\Desktop\\MvcLabManager\\MvcLabManager.csproj",
+        "projectUniqueName": "/home/estudante/Documentos/ProntuarioMvcLabManager/MvcLabManager/MvcLabManager.csproj",
         "projectName": "MvcLabManager",
-        "projectPath": "C:\\Users\\ryan\\Desktop\\MvcLabManager\\MvcLabManager.csproj",
-        "packagesPath": "C:\\Users\\ryan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ryan\\Desktop\\MvcLabManager\\obj\\",
+        "projectPath": "/home/estudante/Documentos/ProntuarioMvcLabManager/MvcLabManager/MvcLabManager.csproj",
+        "packagesPath": "/home/estudante/.nuget/packages/",
+        "outputPath": "/home/estudante/Documentos/ProntuarioMvcLabManager/MvcLabManager/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ryan\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/estudante/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -49,7 +49,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -61,7 +62,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
         }
       }
     }
