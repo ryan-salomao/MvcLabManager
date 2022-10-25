@@ -29,14 +29,14 @@ public class LabController : Controller
         return View(lab);
     }
 
-    public IActionResult CreateLab(int id, string nome, string setor)
+    public IActionResult CreateLab([FromForm] int id, [FromForm] string nome, [FromForm] string setor)
     {
         Lab verificacao = _context.Labs.Find(id);
 
         if(verificacao == null)
         {
             var lab = new Lab(id, nome, setor);
-            return Content("Novo laboratório criado.");
+            return View(lab);
         }
         else
         {
@@ -44,7 +44,7 @@ public class LabController : Controller
         }
     }
 
-    public IActionResult UpdateLab(int id, string nome, string setor)
+    public IActionResult UpdateLab(int id, [FromForm] string nome, [FromForm] string setor)
     {
         Lab lab = _context.Labs.Find(id);
 
@@ -54,8 +54,10 @@ public class LabController : Controller
         }
         else
         {
-            //instrução para atualizar o computador a partir do id
-            return Content("Laboratóro atualizado.");
+            lab.Nome = nome;
+            lab.Setor = setor;
+            _context.SaveChanges();
+            return View(lab);
         }
     }
 
@@ -69,7 +71,7 @@ public class LabController : Controller
         }
         else
         {
-            //instrução para deletar no banco de dados o laboratório a partir do id
+            _context.Labs.Remove(lab);
             return Content("Laboratóro Deletado.");
         }
     }

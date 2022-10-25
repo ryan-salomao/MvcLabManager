@@ -1,16 +1,13 @@
 @model MvcLabManager.Models.Lab
 
 @{
-    ViewData["Title"] = "Criar Laboratório";
+    ViewData["Title"] = "Atualizar Laboratório";
 }
 
 <h1>@ViewData["Title"]</h1>
 
 <div>
-    <form action="CreateLab" method="post">
-        <label for="id">Id: </label>
-        <input type="text" name="id" id="id" class="form-control" required>
-
+    <form action="UpdateLab" method="post">
         <label for="nome">Nome: </label>
         <input type="text" name="nome" id="nome" class="form-control" required>
 

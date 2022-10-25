@@ -29,7 +29,7 @@ public class ComputerController : Controller
         return View(computer);
     }
 
-    public IActionResult CreateComputer(int id, string ram, string processor)
+    public IActionResult CreateComputer([FromForm] int id, [FromForm] string ram, [FromForm] string processor)
     {
         Computer verificacao = _context.Computers.Find(id);
 
@@ -44,7 +44,7 @@ public class ComputerController : Controller
         }
     }
 
-    public IActionResult UpdateComputer(int id, string ram, string processor)
+    public IActionResult UpdateComputer(int id, [FromForm] string ram, [FromForm] string processor)
     {
         Computer computer = _context.Computers.Find(id);
 
@@ -54,7 +54,9 @@ public class ComputerController : Controller
         }
         else
         {
-            //instrução para atualizar os dados de ram e processador do computador a partir do id
+            computer.Ram = ram;
+            computer.Processor = processor;
+            _context.SaveChanges();
             return View(computer);
         }
     }
@@ -69,7 +71,7 @@ public class ComputerController : Controller
         }
         else
         {
-            //instrução para deletar no banco de dados o computador a partir do id
+            _context.Computers.Remove(computer);
             return Content("Computador deletado.");
         }
     }
