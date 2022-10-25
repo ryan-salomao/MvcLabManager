@@ -8,45 +8,65 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MvcLabManager
 build_property.RootNamespace = MvcLabManager
-build_property.ProjectDir = C:\Users\ryan\Desktop\MvcLabManager\
+build_property.ProjectDir = c:\Users\ryan\Desktop\MvcLabManager\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\ryan\Desktop\MvcLabManager
+build_property.MSBuildProjectDirectory = c:\Users\ryan\Desktop\MvcLabManager
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/ryan/Desktop/MvcLabManager/Views/Computer/Index.cshtml]
+[c:/Users/ryan/Desktop/MvcLabManager/Views/Computer/CreateComputer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcHV0ZXJcQ3JlYXRlQ29tcHV0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/ryan/Desktop/MvcLabManager/Views/Computer/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcHV0ZXJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ryan/Desktop/MvcLabManager/Views/Computer/Show.cshtml]
+[c:/Users/ryan/Desktop/MvcLabManager/Views/Computer/Show.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcHV0ZXJcU2hvdy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ryan/Desktop/MvcLabManager/Views/Home/Index.cshtml]
+[c:/Users/ryan/Desktop/MvcLabManager/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ryan/Desktop/MvcLabManager/Views/Home/Privacy.cshtml]
+[c:/Users/ryan/Desktop/MvcLabManager/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ryan/Desktop/MvcLabManager/Views/Shared/Error.cshtml]
+[c:/Users/ryan/Desktop/MvcLabManager/Views/Lab/AddComputer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFiXEFkZENvbXB1dGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/ryan/Desktop/MvcLabManager/Views/Lab/CreateLab.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFiXENyZWF0ZUxhYi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/ryan/Desktop/MvcLabManager/Views/Lab/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFiXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/ryan/Desktop/MvcLabManager/Views/Lab/Show.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFiXFNob3cuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/ryan/Desktop/MvcLabManager/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ryan/Desktop/MvcLabManager/Views/Shared/_ValidationScriptsPartial.cshtml]
+[c:/Users/ryan/Desktop/MvcLabManager/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ryan/Desktop/MvcLabManager/Views/_ViewImports.cshtml]
+[c:/Users/ryan/Desktop/MvcLabManager/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ryan/Desktop/MvcLabManager/Views/_ViewStart.cshtml]
+[c:/Users/ryan/Desktop/MvcLabManager/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ryan/Desktop/MvcLabManager/Views/Shared/_Layout.cshtml]
+[c:/Users/ryan/Desktop/MvcLabManager/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-8yxww06vzk

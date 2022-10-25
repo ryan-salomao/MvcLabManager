@@ -28,7 +28,8 @@ public class ComputerController : Controller
 
         return View(computer);
     }
-    public IActionResult NewComputer(int id, string ram, string processor)
+
+    public IActionResult CreateComputer(int id, string ram, string processor)
     {
         Computer verificacao = _context.Computers.Find(id);
 
@@ -43,4 +44,33 @@ public class ComputerController : Controller
         }
     }
 
+    public IActionResult UpdateComputer(int id, string ram, string processor)
+    {
+        Computer computer = _context.Computers.Find(id);
+
+        if(computer == null)
+        {
+            return NotFound();
+        }
+        else
+        {
+            //instrução para atualizar os dados de ram e processador do computador a partir do id
+            return Content("Computador atualizado.");
+        }
+    }
+
+    public IActionResult DeleteComputer(int id)
+    {
+        Computer computer = _context.Computers.Find(id);
+
+        if(computer == null)
+        {
+            return NotFound();
+        }
+        else
+        {
+            //instrução para deletar no banco de dados o computador a partir do id
+            return Content("Computador deletado.");
+        }
+    }
 }

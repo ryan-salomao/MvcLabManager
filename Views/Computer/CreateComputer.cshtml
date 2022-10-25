@@ -1,0 +1,22 @@
+@model MvcLabManager.Models.Computer
+
+@{
+    ViewData["Title"] = "Criar computador";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<div>
+    <form action="CreateComputer" method="post">
+        <label for="id">Id: </label>
+        <input type="text" name="id" id="id" class="form-control" required>
+
+        <label for="ram">Ram: </label>
+        <input type="text" name="ram" id="ram" class="form-control" required>
+
+        <label for="processor">Processador: </label>
+        <input type="text" name="processor" id="processor" class="form-control" required>
+
+        <button type="submit">Enviar</button>
+    </form>
+</div>

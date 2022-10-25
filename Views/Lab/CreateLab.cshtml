@@ -1,0 +1,19 @@
+@model MvcLabManager.Models.Lab
+
+@{
+    ViewData["Title"] = "Criar Laboratório";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<div>
+    <form action="CreateLab" method="post">
+        <label for="id">Id: </label>
+        <input type="text" name="id" id="id" class="form-control" required>
+
+        <label for="computer">Computador: </label>
+        <input type="text" name="computer" id="computer" class="form-control" required>
+
+        <button type="submit">Enviar</button>
+    </form>
+</div>
