@@ -8,77 +8,77 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MvcLabManager
 build_property.RootNamespace = MvcLabManager
-build_property.ProjectDir = /home/estudante/Documentos/ProntuarioMvcLabManager/MvcLabManager/
+build_property.ProjectDir = /home/estudante/Documentos/ProjetoMvc/MvcLabManager/
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /home/estudante/Documentos/ProntuarioMvcLabManager/MvcLabManager
+build_property.MSBuildProjectDirectory = /home/estudante/Documentos/ProjetoMvc/MvcLabManager
 build_property._RazorSourceGeneratorDebug = 
 
-[/home/estudante/Documentos/ProntuarioMvcLabManager/MvcLabManager/Views/Computer/CreateComputer.cshtml]
+[/home/estudante/Documentos/ProjetoMvc/MvcLabManager/Views/Computer/CreateComputer.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29tcHV0ZXIvQ3JlYXRlQ29tcHV0ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/estudante/Documentos/ProntuarioMvcLabManager/MvcLabManager/Views/Computer/DeleteComputer.cshtml]
+[/home/estudante/Documentos/ProjetoMvc/MvcLabManager/Views/Computer/DeleteComputer.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29tcHV0ZXIvRGVsZXRlQ29tcHV0ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/estudante/Documentos/ProntuarioMvcLabManager/MvcLabManager/Views/Computer/Index.cshtml]
+[/home/estudante/Documentos/ProjetoMvc/MvcLabManager/Views/Computer/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29tcHV0ZXIvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/estudante/Documentos/ProntuarioMvcLabManager/MvcLabManager/Views/Computer/Show.cshtml]
+[/home/estudante/Documentos/ProjetoMvc/MvcLabManager/Views/Computer/Show.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29tcHV0ZXIvU2hvdy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/estudante/Documentos/ProntuarioMvcLabManager/MvcLabManager/Views/Computer/UpdateComputer.cshtml]
+[/home/estudante/Documentos/ProjetoMvc/MvcLabManager/Views/Computer/UpdateComputer.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29tcHV0ZXIvVXBkYXRlQ29tcHV0ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/estudante/Documentos/ProntuarioMvcLabManager/MvcLabManager/Views/Home/Index.cshtml]
+[/home/estudante/Documentos/ProjetoMvc/MvcLabManager/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/estudante/Documentos/ProntuarioMvcLabManager/MvcLabManager/Views/Home/Privacy.cshtml]
+[/home/estudante/Documentos/ProjetoMvc/MvcLabManager/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/estudante/Documentos/ProntuarioMvcLabManager/MvcLabManager/Views/Lab/CreateLab.cshtml]
+[/home/estudante/Documentos/ProjetoMvc/MvcLabManager/Views/Lab/CreateLab.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGFiL0NyZWF0ZUxhYi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/estudante/Documentos/ProntuarioMvcLabManager/MvcLabManager/Views/Lab/DeleteLab.cshtml]
+[/home/estudante/Documentos/ProjetoMvc/MvcLabManager/Views/Lab/DeleteLab.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGFiL0RlbGV0ZUxhYi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/estudante/Documentos/ProntuarioMvcLabManager/MvcLabManager/Views/Lab/Index.cshtml]
+[/home/estudante/Documentos/ProjetoMvc/MvcLabManager/Views/Lab/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGFiL0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/estudante/Documentos/ProntuarioMvcLabManager/MvcLabManager/Views/Lab/Show.cshtml]
+[/home/estudante/Documentos/ProjetoMvc/MvcLabManager/Views/Lab/Show.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGFiL1Nob3cuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/estudante/Documentos/ProntuarioMvcLabManager/MvcLabManager/Views/Lab/UpdateLab.cshtml]
+[/home/estudante/Documentos/ProjetoMvc/MvcLabManager/Views/Lab/UpdateLab.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGFiL1VwZGF0ZUxhYi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/estudante/Documentos/ProntuarioMvcLabManager/MvcLabManager/Views/Shared/Error.cshtml]
+[/home/estudante/Documentos/ProjetoMvc/MvcLabManager/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/estudante/Documentos/ProntuarioMvcLabManager/MvcLabManager/Views/Shared/_ValidationScriptsPartial.cshtml]
+[/home/estudante/Documentos/ProjetoMvc/MvcLabManager/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/estudante/Documentos/ProntuarioMvcLabManager/MvcLabManager/Views/_ViewImports.cshtml]
+[/home/estudante/Documentos/ProjetoMvc/MvcLabManager/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/estudante/Documentos/ProntuarioMvcLabManager/MvcLabManager/Views/_ViewStart.cshtml]
+[/home/estudante/Documentos/ProjetoMvc/MvcLabManager/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/estudante/Documentos/ProntuarioMvcLabManager/MvcLabManager/Views/Shared/_Layout.cshtml]
+[/home/estudante/Documentos/ProjetoMvc/MvcLabManager/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-0ga6t889kj

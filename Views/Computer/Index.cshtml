@@ -29,13 +29,28 @@ else
                     <td>@computer.Ram</td>
                     <td>@computer.Processor</td>
                     <td>
-                        <a class="btn btn-primary btn-sm" href="/Computer/Show/@computer.Id">Ver</a>
+                        <a 
+                            asp-controller="Computer"
+                            asp-action="Show"
+                            asp-route-id="@computer.Id"
+                            class="btn btn-primary btn-sm">Ver
+                        </a>
                     </td>
                     <td>
-                        <a class="btn btn-primary btn-sm" href="/Computer/UpdateComputer/@computer.Id">Atualizar</a>
+                        <a 
+                            asp-controller="Computer"
+                            asp-action="UpdateComputer"
+                            asp-route-id="@computer.Id"
+                            class="btn btn-primary btn-sm">Atualizar
+                        </a>
                     </td>
                     <td>
-                        <a class="btn btn-primary btn-sm" href="/Computer/DeleteComputer/@computer.Id">Deletar</a>
+                        <a 
+                            asp-controller="Computer"
+                            asp-action="DeleteComputer"
+                            asp-route-id="@computer.Id"
+                            class="btn btn-primary btn-sm">Deletar
+                        </a>
                     </td>
                 </tr>
             }
